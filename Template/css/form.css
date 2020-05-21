@@ -1,0 +1,88 @@
+/* Code for body of form */
+
+#form {
+   background: #fff; /* white */
+   color: #262626;
+   font-family: Arial, san-serif;
+}
+
+/* Code for form styling */
+
+#contact-form {  
+   background-color: #ff9999; 
+   max-width: 490px;  
+   padding: 20px;  
+   margin: 50px auto;  
+   border-radius: 15px;    
+   -moz-border-radius: 15px;  
+   -webkit-border-radius: 15px;  
+} 
+  
+#contact-form input,   
+#contact-form select,   
+#contact-form textarea,   
+#contact-form label {  
+   font-size: 15px;  
+   font-family: Arial, san-serif;
+}  
+  
+#contact-form input,   
+#contact-form select,   
+#contact-form textarea {  
+   width: 100%;
+   background: #fff;
+   border: 0; 
+   -moz-border-radius: 5px;  
+   -webkit-border-radius: 5px;  
+   border-radius: 5px;
+   margin-bottom: 25px;
+   margin-top: 5px;
+   padding: 5px;  
+}  
+  
+#contact-form input:focus,   
+#contact-form select:focus,   
+#contact-form textarea:focus {  
+   background-color: #f0f0f4; 
+}  
+  
+#contact-form textarea {  
+   height: 150px;   
+}  
+
+#contact-form #submit {  
+   width: 100%;   
+   color: #fff;  
+   border: none;  
+   background-color: #ff0000;
+}  
+  
+#contact-form #submit:hover {  
+   background-color: #ffcccc;  
+   color: #b30000;
+   cursor:pointer;
+}
+
+/* required asterisk  style below */
+
+input:required, textarea:required {  
+   box-shadow: none;
+   -moz-box-shadow: none;  
+   -webkit-box-shadow: none;  
+   -o-box-shadow: none;  
+} 
+
+#contact-form .required {  
+   font-weight:bold;  
+   color: #E5E6E7;      
+}
+
+/* This code hides the failure success messages until the send button is clicked */
+
+#failure, #success {
+   color: #6EA070; 
+   display:none;  
+}
+
+
+
