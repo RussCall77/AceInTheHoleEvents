@@ -21,8 +21,8 @@
         <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
         <ul class="menu">
             <li><a href="#">Event Information</a></li>
-            <li><a href="#">Registration</a></li>
-            <li><a href="#">Contact Us</a></li>
+            <li><a href="registration.php">Registration</a></li>
+            <li><a href="contact.php">Contact Us</a></li>
         </ul>
     </nav>
     

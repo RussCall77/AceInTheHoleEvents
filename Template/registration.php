@@ -17,13 +17,13 @@
 <body>
     
     <nav class="header">
-        <a href="#" class="logo"><img src="images/AITHME_red_and_black_on_transparent_Impact.png" alt="Ace In The Hole Logo"></a>
+        <a href="index.php" class="logo"><img src="images/AITHME_red_and_black_on_transparent_Impact.png" alt="Ace In The Hole Logo"></a>
         <input class="menu-btn" type="checkbox" id="menu-btn" />
         <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
         <ul class="menu">
             <li><a href="#">Event Information</a></li>
             <li><a href="#">Registration</a></li>
-            <li><a href="#">Contact Us</a></li>
+            <li><a href="contact.php">Contact Us</a></li>
         </ul>
     </nav>
     
