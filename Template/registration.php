@@ -73,11 +73,20 @@
                             <option value="quote">Non-binary/Other</option> 
                         </select>
 
-                        <label for="saturday_events">Saturday events registering for: <span class="required">*</span></label>  
-                        <textarea id="saturday_events" name="saturday_events" placeholder="List events here, please." required="required"></textarea>
+                        <label for="saturday_events">Saturday event registering for: <span class="required">*</span></label>  
+                        <select id="saturday_events" name="saturday_events">   
+                            <option value="Long Course Triathlon">Long Course Triathlon</option>
+                            <option value="Olympic Triathlon">Olympic Triathlon</option>  
+                            <option value="10K">10K</option>
+                            <option value="Half Marathon">Half Marathon</option> 
+                        </select>
                     
-                        <label for="sunday_events">Sunday events registering for: <span class="required">*</span></label>  
-                        <textarea id="sunday_events" name="sunday_events" placeholder="List events here, please." required="required"></textarea>
+                        <label for="sunday_events">Sunday event registering for: <span class="required">*</span></label>  
+                        <select id="sunday_events" name="sunday_events">   
+                            <option value="Sprint Triathlon">Sprint Triathlon</option>
+                            <option value="Try-a-Tri">Try-a-Tri</option>  
+                            <option value="Splash n Dash">Splash n Dash</option>   
+                        </select>
                     
                         <label for="special_accom">Any special accommodations needed: <span class="required">*</span></label>  
                         <textarea id="special_accom" name="special_accom" placeholder="Write your message here, please." required="required"></textarea>
