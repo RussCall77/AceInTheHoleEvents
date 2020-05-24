@@ -17,12 +17,12 @@
 <body>
     
     <nav class="header">
-        <a href="index.php" class="logo"><img src="images/AITHME_red_and_black_on_transparent_Impact.png" alt="Ace In The Hole Logo"></a>
+        <a href="#" class="logo"><img src="images/AITHME_red_and_black_on_transparent_Impact.png" alt="Ace In The Hole Logo"></a>
         <input class="menu-btn" type="checkbox" id="menu-btn" />
         <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
         <ul class="menu">
             <li><a href="#">Event Information</a></li>
-            <li><a href="registration.php">Registration</a></li>
+            <li><a href="#">Registration</a></li>
             <li><a href="#">Contact Us</a></li>
         </ul>
     </nav>
@@ -36,38 +36,34 @@
             <!-- Main Text Goes Here -->
                 <h1>Leopard</h1>
                 <h2>American shorthair singapura persian scottish fold</h2>
-                <p>Abyssinian egyptian mau but havana brown munchkin burmese. Siberian birman devonshire rex so malkin. Scottish fold. Birman puma. Singapura jaguar turkish angora ocicat for tiger lion, persian. Lion panther. Norwegian forest russian blue but tabby balinese . Sphynx malkin so bengal and ocicat, yet devonshire rex so cougar cheetah. Munchkin jaguar yet jaguar and kitten, turkish angora. Persian balinese for birman but bombay or cheetah but turkish angora malkin.</p>
             </article>
             <article>
             <!-- Pic Gallery or Form Goes Here -->
                 <div id="contact-form">
-            <h1>Get in Touch</h1>
-            <h2>Use the contact form below to reach out to me.</h2>
-            <p id="failure">Oops.. something went wrong.</p>
-            <p id="success">Thank you, your message was sent successfully.</p>
-            <form method="post" action="">
-                <label for="name">Name: <span class="required">*</span></label>
-                <input type="text" id="name" name="name" value="" placeholder="Your name" required="required" autofocus="autofocus" />
-                
-                <label for="email">Email Address: <span class="required">*</span></label>  
-                <input type="email" id="email" name="email" value="" placeholder="your@email.com" required="required" />
-                
-                <label for="website">Website: </label>  
-                <input type="web" id="webstie" name="website" value="" />
-                
-                <label for="subject">Subject: </label>  
-                <select id="subject" name="subject">   
-                    <option value="hello">I just want to say hello =]</option>
-                    <option value="quote">Business Inquiry</option>  
-                    <option value="general">General</option>   
-                </select>
-                
-                <label for="message">Message: <span class="required">*</span></label>  
-                <textarea id="message" name="message" placeholder="Write your message here, please." required="required"></textarea>
-                
-                <input type="submit" value="Send away!" id="submit" />
-            </form>
-            </div>
+                <h1>Get in Touch</h1>
+                <h2>Use the contact form below to reach us.</h2>
+                <p id="failure">Oops.. something went wrong.</p>
+                <p id="success">Thank you, your message was sent successfully.</p>
+                <form method="post" action="">
+                        <label for="name">Name: <span class="required">*</span></label>
+                        <input type="text" id="name" name="name" value="" placeholder="Your name" required="required" autofocus="autofocus" />
+
+                        <label for="email">Email Address: <span class="required">*</span></label>  
+                        <input type="email" id="email" name="email" value="" placeholder="your@email.com" required="required" />
+
+                        <label for="subject">Please select if you are an: </label>  
+                        <select id="subject" name="subject">   
+                            <option value="hello">Athlete</option>
+                            <option value="quote">Volunteer</option>  
+                            <option value="general">Interested Party</option>   
+                        </select>
+
+                        <label for="message">Question or Comment: <span class="required">*</span></label>  
+                        <textarea id="message" name="message" placeholder="Write your message here, please." required="required"></textarea>
+
+                        <input type="submit" value="Send away!" id="submit" />
+                </form>
+                </div>
             </article>
         </main>
         <aside class="col span_4_of_12">
