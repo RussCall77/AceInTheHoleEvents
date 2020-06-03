@@ -97,6 +97,9 @@
                         <input type="submit" value="Send away!" id="submit" />
                 </form>
                 </div>
+                <h3>Phone Contact AITH</h3>
+                <p>971-555-2484</p>
+                <p>971-555-AITH</p>
             </article>
         </main>
         <aside class="col span_4_of_12">

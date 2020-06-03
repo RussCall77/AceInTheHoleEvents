@@ -137,6 +137,7 @@
                         <input type="submit" value="Register" id="submit" />
                 </form>
                 </div>
+                <p>Only adults can be an athlete or volunteer. Children can spectate</p>
                 <h2>What to Bring</h2>
                 <p>
                     Watch the weather closely. The show goes on no matter what the weather is doing.
