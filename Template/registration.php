@@ -36,11 +36,52 @@
         <main class="col span_8_of_12">
             <article>
             <!-- Main Text Goes Here -->
-                <h1>Leopard</h1>
-                <h2>American shorthair singapura persian scottish fold</h2>
+                <h1>Registration</h1>
+                <p>
+                    <strong>Long Course</strong>
+                    <br>
+                    $240
+                    <br>
+                    <strong>Olympic</strong>
+                    <br>
+                    $110
+                    <br>
+                    <strong>10K</strong>
+                    <br>
+                    $50
+                    <br>
+                    <strong>Half Marathon</strong>
+                    <br>
+                    $75
+                    <br>
+                    <strong>Sprint</strong><strong>Sprint</strong>
+                    <br>
+                    $90
+                    <br>
+                    <strong>Try-a-Tri</strong>
+                    <br>
+                    $65
+                </p>
+                <p>Cost Includes</p>
+                <p>
+                    Food &amp; Beer
+                    <br>
+                    Access to the weekend's live entertainment &amp; Fitness Expo
+                    <br>
+                    Commemorative Finisher medal
+                    <br>
+                    Accurate Chip Timing for competitive races
+                    <br>
+                    Ace in the Hole Multisport Weekend Tech Shirt
+                    <br>
+                    Post-event party &amp; entertainment
+                </p>
+                <p>
+                    NOTE: Tech shirts guaranteed to pre-registered participants only.
+                </p>
             </article>
             <article>
-            <!-- Pic Gallery or Form Goes Here -->
+            <!-- Form Goes Here -->
                 <div id="contact-form">
                 <h1>Registration</h1>
                 <h2>Use the form below to register for the event.</h2>
@@ -96,6 +137,28 @@
                         <input type="submit" value="Register" id="submit" />
                 </form>
                 </div>
+                <h2>What to Bring</h2>
+                <p>
+                    Watch the weather closely. The show goes on no matter what the weather is doing.
+                </p>
+                <p>
+                    You must wear your chip timing piece during the entire event. You will be given a band that will hold your chip timing piece around your ankle throughout the entire event. Be sure that it is snapped tightly. Be sure to have your Chip Timing piece on before you start the race and be sure to step over the timing mats after each segment of the race. If you are wearing a wet-suit, make sure the timing piece goes under your wetsuit otherwise, you will have a very difficult time getting off your wet suit.
+                </p>
+                <p>
+                    <strong>Swim:</strong>
+                     Wetsuits are optional for the swim but will provide buoyancy and warmth. However, many people opt for no wetsuit for a triathlon so no worries. We will provide you with a swim cap but you will want to bring your own goggles.
+                </p>
+                <p>
+                    <strong>Bike:</strong>
+                     A biking helmet is mandatory. You will also receive 2 stickers in your package with your race number on them. The small sticker should go on the front of your helmet. The bigger sticker will wrap around your bike frame. Road or mountain bikes are acceptable. For safety reasons, be sure to have end-caps on the end of your handle-bars.
+                </p>
+                <p>
+                    <strong>Run:</strong>
+                     You must finish the race with your bib number on the front of you. Some people choose to pin it on at the beginning of the race and have it on for the whole event so they don't have to worry about it. Others pin it on a singlet that they put on once they finish the swim before they head out for the bike. Others use an elastic racing strap that they pin their bib number to and then quickly strap it on before they leave for the run. Use whatever option feels best for you.
+                </p>
+                <p>
+                    Remember to bring a change of clothing so you can enjoy the post-event festivities.
+                </p>
             </article>
         </main>
         <aside class="col span_4_of_12">
