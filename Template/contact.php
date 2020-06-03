@@ -112,6 +112,19 @@
                 </div>
                 <a class="twitter-timeline" data-height="200" data-theme="dark" href="https://twitter.com/pcccas222?ref_src=twsrc%5Etfw">Tweets by pcccas222</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
             </div>
+        <div style="clear: both;"></div>
+        </aside>
+    </section>
+    
+    <footer>
+        <section class="group section">
+            <div class="col span_6_of_12">
+                <a href="https://www.facebook.com/Cas222Aceinthehole-110661963841617/"><img src="images/facebook.svg" alt="Facebook Page"></a>
+            </div>
+            <div class="col span_6_of_12">
+                <a href="https://twitter.com/pcccas222?lang=en"><img src="images/twitter.svg" alt="Twitter Page"></a>
+            </div>
+        </section>
         <p class="copyright">Designed by Russell Callison Designs,&copy 2020</p>
     </footer>
     
