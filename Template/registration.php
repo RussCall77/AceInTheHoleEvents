@@ -15,13 +15,15 @@
     <link rel="stylesheet" href="css/form.css">
 </head>
 <body>
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v7.0"></script>
     
     <nav class="header">
         <a href="index.php" class="logo"><img src="images/AITHME_red_and_black_on_transparent_Impact.png" alt="Ace In The Hole Logo"></a>
         <input class="menu-btn" type="checkbox" id="menu-btn" />
         <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
         <ul class="menu">
-            <li><a href="#">Event Information</a></li>
+            <li><a href="eventPacket.php">Event Information</a></li>
             <li><a href="#">Registration</a></li>
             <li><a href="contact.php">Contact Us</a></li>
         </ul>
@@ -99,10 +101,15 @@
         <aside class="col span_4_of_12">
          <!-- Weather and Social Media go here -->
             <div id="weather">
-                <p>Weather app goes here.</p>
+                <a class="weatherwidget-io" href="https://forecast7.com/en/45d52n122d68/portland/?unit=us" data-label_1="PORTLAND" data-label_2="WEATHER" data-days="5" data-theme="gray" >PORTLAND WEATHER</a>
+                <script>
+                !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
+                </script> 
             </div>
-            <div id="social media">
-                <p>Social Media goes here.</p>
+            <div id="social_media">
+                <div class="fb-page" data-href="https://www.facebook.com/Cas222Aceinthehole-110661963841617/" data-tabs="timeline" data-width="" data-height="315" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/Cas222Aceinthehole-110661963841617/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/Cas222Aceinthehole-110661963841617/">Cas222Aceinthehole</a></blockquote>
+                </div>
+                <a class="twitter-timeline" data-height="200" data-theme="dark" href="https://twitter.com/pcccas222?ref_src=twsrc%5Etfw">Tweets by pcccas222</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
             </div>
             <div style="clear: both;"></div>
         </aside>
