@@ -43,6 +43,7 @@ article {
 }
 aside {
   background-color: lightgray;
+  z-index: -2;
 }
 #weather {
   width: 100%;
