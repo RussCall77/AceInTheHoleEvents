@@ -128,11 +128,9 @@
                 <a href="https://twitter.com/pcccas222?lang=en"><img src="images/twitter.svg" alt="Twitter Page"></a>
             </div>
         </section>
-        <p class="copyright">Designed by Russell Callison Designs,&copy 2020</p>
-    </footer>
     
 <?php
 
-include_once "includes/footer.php";
+    include_once "includes/footer.php";
 
 ?>
