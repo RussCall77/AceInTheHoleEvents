@@ -23,6 +23,7 @@
         <input class="menu-btn" type="checkbox" id="menu-btn" />
         <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
         <ul class="menu">
+            <li><a href="index.php">Home</a></li>
             <li><a href="eventPacket.php">Event Information</a></li>
             <li><a href="#">Registration</a></li>
             <li><a href="contact.php">Contact Us</a></li>
@@ -37,7 +38,7 @@
             <article>
             <!-- Main Text Goes Here -->
                 <h1>Registration</h1>
-                <p>
+                <p class="center">
                     <strong>Long Course</strong>
                     <br>
                     $240
@@ -62,8 +63,8 @@
                     <br>
                     $65
                 </p>
-                <p>Cost Includes</p>
-                <p>
+                <p class="center">Cost Includes</p>
+                <p class="center">
                     Food &amp; Beer
                     <br>
                     Access to the weekend's live entertainment &amp; Fitness Expo
@@ -76,7 +77,7 @@
                     <br>
                     Post-event party &amp; entertainment
                 </p>
-                <p>
+                <p class="center">
                     NOTE: Tech shirts guaranteed to pre-registered participants only.
                 </p>
             </article>
@@ -117,7 +118,8 @@
                         </select>
 
                         <label for="saturday_events">Saturday event registering for: <span class="required">*</span></label>  
-                        <select id="saturday_events" name="saturday_events">   
+                        <select id="saturday_events" name="saturday_events">
+                            <option value="None">None</option>
                             <option value="Long Course Triathlon">Long Course Triathlon</option>
                             <option value="Olympic Triathlon">Olympic Triathlon</option>  
                             <option value="10K">10K</option>
@@ -125,7 +127,8 @@
                         </select>
                     
                         <label for="sunday_events">Sunday event registering for: <span class="required">*</span></label>  
-                        <select id="sunday_events" name="sunday_events">   
+                        <select id="sunday_events" name="sunday_events">
+                            <option value="None">None</option>
                             <option value="Sprint Triathlon">Sprint Triathlon</option>
                             <option value="Try-a-Tri">Try-a-Tri</option>  
                             <option value="Splash n Dash">Splash n Dash</option>   
@@ -171,7 +174,7 @@
                 </script> 
             </div>
             <div id="social_media">
-                <div class="fb-page" data-href="https://www.facebook.com/Cas222Aceinthehole-110661963841617/" data-tabs="timeline" data-width="" data-height="315" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/Cas222Aceinthehole-110661963841617/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/Cas222Aceinthehole-110661963841617/">Cas222Aceinthehole</a></blockquote>
+                <div class="fb-page" data-href="https://www.facebook.com/Cas222Aceinthehole-110661963841617/" data-tabs="timeline" data-width="500" data-height="315" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/Cas222Aceinthehole-110661963841617/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/Cas222Aceinthehole-110661963841617/">Cas222Aceinthehole</a></blockquote>
                 </div>
                 <a class="twitter-timeline" data-height="200" data-theme="dark" href="https://twitter.com/pcccas222?ref_src=twsrc%5Etfw">Tweets by pcccas222</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
             </div>

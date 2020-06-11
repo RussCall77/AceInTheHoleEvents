@@ -23,6 +23,7 @@
         <input class="menu-btn" type="checkbox" id="menu-btn" />
         <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
         <ul class="menu">
+            <li><a href="index.php">Home</a></li>
             <li><a href="eventPacket.php">Event Information</a></li>
             <li><a href="registration.php">Registration</a></li>
             <li><a href="#">Contact Us</a></li>
@@ -97,9 +98,9 @@
                         <input type="submit" value="Send away!" id="submit" />
                 </form>
                 </div>
-                <h3>Phone Contact AITH</h3>
-                <p>971-555-2484</p>
-                <p>971-555-AITH</p>
+                <h3 class="center">Phone Contact AITH</h3>
+                <p class="center">971-555-2484</p>
+                <p class="center">971-555-AITH</p>
             </article>
         </main>
         <aside class="col span_4_of_12">
@@ -111,7 +112,7 @@
                 </script> 
             </div>
             <div id="social_media">
-                <div class="fb-page" data-href="https://www.facebook.com/Cas222Aceinthehole-110661963841617/" data-tabs="timeline" data-width="" data-height="315" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/Cas222Aceinthehole-110661963841617/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/Cas222Aceinthehole-110661963841617/">Cas222Aceinthehole</a></blockquote>
+                <div class="fb-page" data-href="https://www.facebook.com/Cas222Aceinthehole-110661963841617/" data-tabs="timeline" data-width="500" data-height="315" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/Cas222Aceinthehole-110661963841617/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/Cas222Aceinthehole-110661963841617/">Cas222Aceinthehole</a></blockquote>
                 </div>
                 <a class="twitter-timeline" data-height="200" data-theme="dark" href="https://twitter.com/pcccas222?ref_src=twsrc%5Etfw">Tweets by pcccas222</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
             </div>
