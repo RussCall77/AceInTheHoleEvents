@@ -72,6 +72,8 @@ File Name: grid.css
 
     .span_4_of_12 {
         width: 32.66%;
+        max-width: 500px;
+        float: right;
     }
 
     .span_3_of_12 {

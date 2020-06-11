@@ -110,7 +110,7 @@
 
 /* End of Hamburger Menu */
 
-@media (min-width: 58em) {
+@media (min-width: 70em) {
   .header li {
     float: left;
     padding: 0 1.5em;

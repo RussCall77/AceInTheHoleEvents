@@ -26,10 +26,14 @@ h2 {
   font-size: 1.25em;
   font-weight: bold;
   padding: 0.25em 0.8em;
+  color: #ff0000;
 }
 p {
   padding: 1em;
   line-height: 1.25em;
+}
+strong {
+  font-weight: bold;
 }
 main {
   padding: 1em;
@@ -60,6 +64,9 @@ footer img {
   display: block;
   margin: 0.2em auto;
   height: 4em;
+}
+.center {
+  text-align: center;
 }
 .copyright {
   color: white;
